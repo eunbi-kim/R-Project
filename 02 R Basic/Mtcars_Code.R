@@ -10,3 +10,6 @@ colnames(cars)  #데이터의 열 이름 출력
 
 cars$mpg  #데이터의 속성 선택
 
+cars$model
+
+install.packages(c("stringr", "ggplot2"))
